@@ -9,7 +9,7 @@ $(document).ready(function() {
 
             items = `
             <div class="card prod" style="width: 15rem;"> 
-                <img src="../img/producto${ id }.jpg" class="card-img-top" style="height: 200px;" alt="${ name }">
+                <img src="img/producto${ id }.jpg" class="card-img-top" style="height: 200px;" alt="${ name }">
                 <div class="card-body prod__card">
                     <p>${name}</p>
                     <p>$<span class="price_prod">${ precio }</span></p>
